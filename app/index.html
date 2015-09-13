@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-ui-clock/dist/angular-clock.css" />
+    <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css" />
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link href="////cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen">
+      <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/component.css">
+    <link rel="stylesheet" href="styles/demo.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/demo2.css">
+
+    <link rel="stylesheet" href="styles/style_common.css">
+
+    <link rel="stylesheet" href="styles/style1.css">
+       <link rel="stylesheet" href="styles/demonewitem.css">
+    <link rel="stylesheet" href="styles/style1newitem.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/demologin.css">
+
+    <link rel="stylesheet" href="styles/stylelogin.css">
+    <link rel="stylesheet" href="styles/stylewordrotator.css">
+
+
+
+
+
+
+
+     
+   
+
+    <!-- endbuild -->
+  </head>
+  <body  ng-app="webappliedApp" >
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class ='header'>
+    <h1 style="color:#E6E6E6" align='center'> The Developer     </h1>
+     <td> <h3><strong></strong></h3></td>
+      <td> </td>
+<ds-widget-clock show-digital theme="blue-light" digital-format="'hh:mm:ss a'"></ds-widget-clock>      </div>
+
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Branches</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a ng-href="">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>
+
+        <li><a href="#/menu">Technologies</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ng-href="#/sportstore">SportsStore</a></li>
+                        <li><a ng-href="#/slide">Slide show</a></li>
+            <li><a href="#/chat">Chat Application</a></li>
+            <li><a ng-href="#/login">Login--></a></li>
+             <li><a ng-href="#/adminOrders">Admin Orders</a></li>
+              <li><a ng-href="#/adminProducts">Admin Products</a></li>
+  <li><a ng-href="#/newItem">Shoe World</a></li>
+    <li><a ng-href="#/tracker">Resource Tracker</a></li>
+        <li><a ng-href="#/book">Book My Ticket</a></li>
+             <li><a href="#"></a></li>
+          </ul> 
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input type="text" class="form-control" placeholder="Search" >
+          <span class="glyphicon glyphicon-zoom-out"></span>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/time">Time check</a></li>
+        <li><a href="#/about">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chart <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+              <li><a ng-href="#/chart">LineChart</a></li>
+              <li><a ng-href="#/barchart">BarChart</a></li>
+             <li><a ng-href="#/dougchart">Doughnut Chart</a></li>
+             <li><a ng-href="#/radar">Radar Chart</a></li>
+             <li><a ng-href="#/pie">Pie Chart</a></li>
+              <li><a ng-href="#/polar">Polar Area Chart</a></li>
+              <li><a ng-href="#/dynamic">Dynamic Chart</a></li>
+              
+            </ul>
+
+    </li>
+
+        <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Angular Js <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+              <li><a ng-href="#/databinding">Data Binding</a></li>
+                          <li><a ng-href="#/searchbox">Search Box</a></li>
+
+              
+            </ul>
+
+    </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigate <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://thirakadha.wordpress.com/2013/04/24/%E0%B4%B8%E0%B5%8D%E0%B4%B2%E0%B5%80%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B5%8D%E2%80%8D-%E0%B4%9F%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D%E2%80%8C/">സ്ലീപ്പര്‍ ടിക്കറ്റ്‌</a></li>
+            <li><a href="https://thirakadha.wordpress.com/2013/04/19/%E0%B4%A6%E0%B5%88%E0%B4%B5%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%A8%E0%B5%81-%E0%B4%92%E0%B4%B0%E0%B5%81-%E0%B4%95%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%8D/">ദൈവത്തിനു ഒരു കത്ത്</a></li>
+            <li><a  href="http://simpleapphub.blogspot.in/" target="_blank" >Node Application by Delson</a></li>
+           
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+
+    <div >
+    <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-user"></span> Developed by :<i>Ajit Menon</i></p>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-clock/dist/angular-clock.js"></script>
+    <script src="bower_components/Chart.js/Chart.js"></script>
+    <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+         <script src="scripts/controllers/modernizr.custom.js"></script>
+        <script src="scripts/controllers/sportstore.js"></script>
+         <script src="scripts/controllers/customFilters.js"></script>
+<script src="scripts/controllers/cart.js"></script>
+<script src="scripts/controllers/adminControllers.js"></script>
+<script src="scripts/controllers/checkoutControllers.js"></script>
+         <script src="scripts/controllers/modernizr.custom.79639.js"></script>
+         <script src="scripts/controllers/modernizr.custom.72111.js"></script>
+         <script src="scripts/controllers/chartview.js"></script>
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        
+         <script src="scripts/controllers/book.js"></script>
+         
+
+
+
+
+
+<!-- <script src="scripts/controllers/checkoutControllers.js"></script>
+ -->        <!-- endbuild -->
+</body>
+</html>
