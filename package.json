@@ -1,9 +1,24 @@
 {
-  "name": "webapplied",
-  "engines": {
-    "node": "0.12.0"
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "express": "^4.13.3"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ajitmenon/webapplied.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajitmenon/webapplied/issues"
+  },
+  "homepage": "https://github.com/ajitmenon/webapplied#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.6.1"
   }
 }
